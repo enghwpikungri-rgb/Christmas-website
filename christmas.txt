@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas, My Love</title>
+    <style>
+        body {
+            background: radial-gradient(circle, #1b263b, #0d1b2a);
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            max-width: 85%;
+            z-index: 10;
+        }
+        h1 { color: #ff4d6d; font-size: 1.8rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        p { font-size: 1.1rem; line-height: 1.6; color: #f0f0f0; }
+        .distance-text { font-style: italic; color: #ffb3c1; margin-top: 15px; }
+        .emojis { font-size: 2.5rem; margin-bottom: 10px; }
+
+        /* Snow Effect */
+        .snowflake {
+            position: fixed; top: -10%; z-index: 1;
+            color: white; font-size: 1em;
+            user-select: none; cursor: default;
+            animation: fall linear infinite;
+        }
+        @keyframes fall {
+            to { transform: translateY(110vh); }
+        }
+    <
